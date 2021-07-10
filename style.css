@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background: url(img/background.jpg) no-repeat;
+  background-size: cover;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 63%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.card{
+  padding:8%;
+}
+
+header img{
+  width: 190px;
+  display: block;
+  margin: auto;
+}
+
+header p{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #08dc04;
+  margin: 4px;
+}
+
+/* link di navigazione */
+
+nav{
+  background-color: #08dc04;
+  height:35px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.nav-buttons{
+  padding-top: 7px;
+
+}
+
+/* opzioni monopattini */
+
+.monopattino{
+  margin-top: 19px;
+}
+
+h3 > div{
+  display: inline-block;
+  width: 10px;
+  height:10px;
+  background: white;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+div > p{
+  font-size: 14px;
+  font-family:sans-serif;
+  font-weight: 100;
+  padding: 2px 0;
+}
+
+
+.arrow:before {
+  content: "\21A6";
+}
+
+.batteria:before{
+  content: 'Stato carica:';
+}
+
+.bar{
+  height: 20px;
+  border-radius: 5px;
+}
+
+.bar1{
+  width: 300px;
+  background-color: #f5b453;
+}
+
+.bar2{
+  width: 520px;
+  background-color: #1ec31e;
+}
+
+.bar3{
+  width: 180px;
+  background-color: #be4141;
+}
